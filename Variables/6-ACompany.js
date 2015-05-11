@@ -1,3 +1,9 @@
+/*
+A company dealing with marketing wants to keep a data record of its employees.
+Each record should have the following characteristic – first name, last name,
+age, gender (‘m’ or ‘f’) and unique employee number 27560000.
+*/
+
 function Employee(firstName, lastName, age, gender, employeeNumber) {
     this.firstName = firstName,
     this.lastName = lastName,
