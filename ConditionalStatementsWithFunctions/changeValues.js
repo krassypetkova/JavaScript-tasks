@@ -10,12 +10,16 @@ function changeValues(a, b) {
         a = b;
         b = c;
 
-        console.log("a = " + a);
-        console.log("b = " + b);
+        console.log(a);
+        console.log(b);
+        return {
+            a: a,
+            b: b
+        }
     } else if (a === b) {
         console.error("Sorry a = b. The condition is not fulfilled!")
     } else {
         console.error("Sorry a < b. The condition is not fulfilled!")
     }
 }
-changeValues(20, 2);
+changeValues(20, 2); // 20
