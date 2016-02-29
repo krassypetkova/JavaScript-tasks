@@ -13,9 +13,9 @@ function changeValues(a, b) {
         console.log("a = " + a);
         console.log("b = " + b);
     } else if (a === b) {
-        console.log("Sorry a = b. The condition is not fulfilled!")
+        console.error("Sorry a = b. The condition is not fulfilled!")
     } else {
-        console.log("Sorry a < b. The condition is not fulfilled!")
+        console.error("Sorry a < b. The condition is not fulfilled!")
     }
 }
 changeValues(20, 2);

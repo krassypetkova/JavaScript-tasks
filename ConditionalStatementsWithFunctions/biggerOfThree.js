@@ -9,7 +9,7 @@ function biggerOfThree (a, b, c) {
     } else if (c > a && c > b) {
         console.log("c = " + c + "." + " C is greater!");
     } else {
-        console.log("a = b = c. The condition is not fulfilled!");
+        console.error("a = b = c. The condition is not fulfilled!");
     }
 }
 biggerOfThree(10, 8, 2);
