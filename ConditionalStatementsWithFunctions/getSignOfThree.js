@@ -16,6 +16,7 @@ function getSignOfThree (a, b, c) {
         return "-";
     }
 }
+
 getSignOfThree(0, 0, 0); // The result is 0. The number zero has no sign
 getSignOfThree(1, 2, 3); // The sign is '+'
 getSignOfThree(-4, -5, -6); // The sign is '-'

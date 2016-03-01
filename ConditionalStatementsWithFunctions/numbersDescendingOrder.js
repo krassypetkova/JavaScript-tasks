@@ -1,9 +1,9 @@
 /*4. Sort 3 real numbers in descending order. Use nested if statements. */
 
 function numsDescendingOrder() {
-    var args = [].slice.apply(arguments);
+    var args = [].slice.apply(arguments),
+        sortedArray = (args.sort(function(a, b){return a-b}));
 
-    var sortedArray = (args.sort(function(a, b){return a-b}));
     console.log(sortedArray);
     return sortedArray;
 }
